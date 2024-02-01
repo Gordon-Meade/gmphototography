@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+}
+
+nav  {
+    padding: 30px;
+
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url("../images/_DSC3314.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    height: 100vh; /* Set the body height to 100% of the viewport height */
+    /* Add any additional styles you need for the body */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+}
+
+img {
+    image-rendering: -webkit-optimize-contrast; /* WebKit browsers (Chrome, Safari) */
+    image-rendering: -moz-crisp-edges; /* Mozilla Firefox */
+    image-rendering: crisp-edges; /* Future versions of browsers following the spec */
+    image-rendering: pixelated; /* Older versions of browsers that don't support crisp-edges */
+    filter: contrast(7.9) brightness(3.3); /* Adjust values as needed */
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 100%;
+}
+
+.social-icons {
+    font-size: 30px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.social-icons:hover {
+    color: #17a2b8; /* Change color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer {
+        
+        padding: 20px; /* Increase padding for more separation */
+        text-align: center;
+        color: rgba(255, 255, 255,); /* Use rgba for a transparent text color */
+        position: fixed; /* Use position relative to handle absolute positioning */
+        bottom: 0; /* Stick the footer to the bottom */
+        width: 100%; /* Ensure the footer spans the full width of the viewport */
+    }
+    
